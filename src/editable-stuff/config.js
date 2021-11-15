@@ -6,30 +6,30 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Albert",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Wang",
+  message: " Hi, I'm a student of National Tsing Hua University, Hsinchu, Taiwan ",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
+      url: "https://github.com/albert037037037",
     },
     {
       image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
+      url: "https://www.facebook.com/albert037037037/",
     },
     {
       image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://www.instagram.com/gem.0723/",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      url: "https://www.linkedin.com",
     },
     {
       image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://www.twitter.com",
     },
   ],
 };
@@ -51,11 +51,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/profile.jpeg"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "My name is Albert Wang. I’m a undergraduate student in the Department of Computer Science in National Tsing Hua University! I'm dedicating to distributed system and cloud computing. Looking forward to contact with you!",
+  resume: "https://albert037037037.github.io/resume/",
 };
 
 // PROJECTS SECTION
@@ -66,25 +66,30 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
+  gitHubUsername: "albert037037037", //i.e."johnDoe12Gh"
+  reposLength: 6,
   specificRepos: [],
 };
 
 // Leadership SECTION
 const leadership = {
-  show: false,
+  show: true,
   heading: "Leadership",
   message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+    "First, from 2019/04 to 2019/09, I was the Coordinator of NTHU Computer Science orientation camp. In order to assist freshmen can get familiar with each others, we held a three days camp for freshmen in our department. Seconds, from 2019/9 to 2020/6, I was a leader of activities department of student association of computer science department. We held lots of activity to gel our department!",
   images: [
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../assets/img/camp.png"), 
       label: "First slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../assets/img/uniform.png"), 
+      label: "Second slide label", 
+      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    },
+    { 
+      img: require("../assets/img/me.png"), 
       label: "Second slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
@@ -100,19 +105,29 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "C/C++", value: 80 },
+    { name: "JavaScript", value: 75 },
+    { name: "Python", value: 60 },
+    { name: "SQL", value: 60 },
+    { name: "Java", value: 60 },
+    { name: "HTML/CSS", value: 60 },
+    { name: "C#", value: 60 },
+    { name: "Verilog", value: 60},
+  ],
+  tools: [
+    { name: "Git", value: 70 },
+    { name: "Kubernetes", value: 65 },
+    { name: "Docker", value: 55 },
+    { name: "Express.js", value: 70 },
+    { name: "Pyspark", value: 60 },
+    { name: "MongoDB", value: 70 },
+    { name: "Slack", value: 75 },
+    { name: "Notion", value: 80 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
     { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
+    { name: "Positivity", value: 80 },
     { name: "Adaptability", value: 85 },
     { name: "Problem Solving", value: 75 },
     { name: "Empathy", value: 90 },
@@ -126,8 +141,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "Albert Wang",
+  email: "albert037037037@gmail.com",
 };
 
 const experiences = {
@@ -135,14 +150,14 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Teaching Assistant of Introduction to programming class',// Here Add Company Name
+      companylogo: require('../assets/img/nthu.jpeg'),
+      date: 'Mar. 2021 – Present',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Teaching Assistant of Operating system class',
+      companylogo: require('../assets/img/nthu.jpeg'),
+      date: 'Sept. 2021 – Present',
     },
   ]
 }
