@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Albert",
   middleName: "",
   lastName: "Wang",
-  message: " Hi, I'm a student of National Tsing Hua University, Hsinchu, Taiwan ",
+  message: " Hi, I'm majoring in Computer Sceince at National Tsing Hua University! Welcome to my website!",
   icons: [
     {
       image: "fa-github",
@@ -54,7 +54,7 @@ const about = {
   imageLink: require("../editable-stuff/profile.jpeg"),
   imageSize: 375,
   message:
-    "My name is Albert Wang. I’m a undergraduate student in the Department of Computer Science in National Tsing Hua University! I'm dedicating to distributed system and cloud computing. Looking forward to contact with you!",
+    "My name is Albert Wang. I’m a undergraduate student study in the Department of Computer Science at National Tsing Hua University! I'm dedicating to distributed system and cloud computing. Looking forward to contact you!",
   resume: "https://albert037037037.github.io/resume/",
 };
 
@@ -67,8 +67,8 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "albert037037037", //i.e."johnDoe12Gh"
-  reposLength: 6,
-  specificRepos: [],
+  reposLength: 0,
+  specificRepos: ["ai-platform-server", "Vanilla-Database", "NTHU_Parallel_Programming", "Massive-Data-Analysis", "Leetcode", "Computer-Graphics" ],
 };
 
 // Leadership SECTION
