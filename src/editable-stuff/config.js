@@ -80,18 +80,18 @@ const leadership = {
   images: [
     { 
       img: require("../assets/img/camp.png"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      label: "", 
+      paragraph: " Orientation camp. " 
     },
     { 
       img: require("../assets/img/uniform.png"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      label: "", 
+      paragraph: " Uniform party. " 
     },
     { 
       img: require("../assets/img/me.png"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      label: "", 
+      paragraph: " Feng Qiao Night. " 
     },
   ],
   imageSize: {
