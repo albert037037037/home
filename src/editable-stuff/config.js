@@ -25,7 +25,7 @@ const mainBody = {
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com",
+      url: "https://www.linkedin.com/in/shao-yuan-wang-576000226/",
     },
     {
       image: "fa-twitter",
@@ -114,7 +114,7 @@ const skills = {
     { name: "C#", value: 60 },
     { name: "Verilog", value: 60},
   ],
-  tools: [
+  softSkills: [
     { name: "Git", value: 70 },
     { name: "Kubernetes", value: 65 },
     { name: "Docker", value: 55 },
@@ -124,16 +124,16 @@ const skills = {
     { name: "Slack", value: 75 },
     { name: "Notion", value: 80 },
   ],
-  softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 80 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
-  ],
+  // softSkills: [
+  //   { name: "Goal-Oriented", value: 80 },
+  //   { name: "Collaboration", value: 90 },
+  //   { name: "Positivity", value: 80 },
+  //   { name: "Adaptability", value: 85 },
+  //   { name: "Problem Solving", value: 75 },
+  //   { name: "Empathy", value: 90 },
+  //   { name: "Organization", value: 70 },
+  //   { name: "Creativity", value: 90 },
+  // ],
 };
 
 // GET IN TOUCH SECTION
