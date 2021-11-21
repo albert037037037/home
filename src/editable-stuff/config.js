@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Albert",
   middleName: "",
   lastName: "Wang",
-  message: " Hi, I'm majoring in Computer Sceince at National Tsing Hua University! Welcome to my website!",
+  message: " Hi, I'm studying in Computer Sceince at National Tsing Hua University! Welcome to my website!",
   icons: [
     {
       image: "fa-github",
