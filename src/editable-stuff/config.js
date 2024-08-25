@@ -9,27 +9,19 @@ const mainBody = {
   firstName: "Albert",
   middleName: "",
   lastName: "Wang",
-  message: " Hi, I'm studying in Computer Sceince at National Tsing Hua University! Welcome to my website!",
+  message: " Hi, I am a graduate with a master's degree in Computer Science from National Tsing Hua University. Welcome to my website!",
   icons: [
     {
       image: "fa-github",
       url: "https://github.com/albert037037037",
     },
     {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/albert037037037/",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/gem.0723/",
-    },
-    {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/shao-yuan-wang-576000226/",
     },
     {
-      image: "fa-twitter",
-      url: "https://www.twitter.com",
+      image: "fa-facebook",
+      url: "https://www.facebook.com/albert037037037",
     },
   ],
 };
@@ -54,7 +46,7 @@ const about = {
   imageLink: require("../editable-stuff/profile.jpeg"),
   imageSize: 375,
   message:
-    "My name is Albert Wang. I’m a undergraduate student study in the Department of Computer Science at National Tsing Hua University! I'm dedicating to distributed system and cloud computing. Looking forward to contact you!",
+    "My name is Albert Wang. I am a graduate with a master's degree in the Department of Computer Science at National Tsing Hua University! I've been dedicating to distributed system and cloud computing. Besides, I went to Seoul National University at 2024 Spring as an exchagne student. Moreover, I worked as a summer intern at TSMC in 2022. Looking forward to contact you!",
   resume: "https://albert037037037.github.io/resume/",
 };
 
@@ -62,12 +54,12 @@ const about = {
 // Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
 //      i.e: reposLength: 0,
 // If you want to display specfic projects, add the repository names,
-//      i.e ["repository-1", "repo-2"]
+//      i.e ["repository-1", "repo-2"]<!-- PROJECT LOGO -->
 const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "albert037037037", //i.e."johnDoe12Gh"
-  reposLength: 0,
+  reposLength: 3,
   specificRepos: ["ai-platform-server", "Vanilla-Database", "NTHU_Parallel_Programming", "Massive-Data-Analysis", "Leetcode", "Computer-Graphics" ],
 };
 
@@ -76,7 +68,7 @@ const leadership = {
   show: true,
   heading: "Leadership",
   message:
-    "First, from 2019/04 to 2019/09, I was the Coordinator of NTHU Computer Science orientation camp. In order to assist freshmen can get familiar with each others, we held a three days camp for freshmen in our department. Seconds, from 2019/9 to 2020/6, I was a leader of activities department of student association of computer science department. We held lots of activity to gel our department!",
+    "First, from Apr. 2019 to Sep. 2019, I was the Coordinator of NTHU Computer Science orientation camp. In order to assist freshmen can get familiar with each others, we held a three days camp for freshmen in our department. Seconds, from Sep. 2019 to Jun. 2020, I was a leader of activities department of student association of computer science department. We held lots of activity to gel our department!",
   images: [
     { 
       img: require("../assets/img/camp.png"), 
@@ -105,23 +97,20 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "C/C++", value: 80 },
-    { name: "JavaScript", value: 75 },
-    { name: "Python", value: 60 },
+    { name: "C/C++", value: 85 },
+    { name: "Python", value: 80 },
+    { name: "CUDA", value: 75},
+    { name: "JavaScript", value: 70 },
     { name: "SQL", value: 60 },
     { name: "Java", value: 60 },
     { name: "HTML/CSS", value: 60 },
     { name: "C#", value: 60 },
-    { name: "Verilog", value: 60},
   ],
   softSkills: [
     { name: "Git", value: 70 },
-    { name: "Kubernetes", value: 65 },
-    { name: "Docker", value: 55 },
-    { name: "Express.js", value: 70 },
-    { name: "Pyspark", value: 60 },
-    { name: "MongoDB", value: 70 },
-    { name: "Slack", value: 75 },
+    { name: "Kubernetes", value: 70 },
+    { name: "Docker", value: 70 },
+    { name: "Nsight Systems", value: 75},
     { name: "Notion", value: 80 },
   ],
   // softSkills: [
@@ -146,18 +135,23 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Teaching Assistant of Introduction to programming class',// Here Add Company Name
-      companylogo: require('../assets/img/nthu.jpeg'),
-      date: 'Mar. 2021 – Present',
+      role: 'Intern in TSMC',
+      companylogo: require('../assets/img/tsmc.png'),
+      date: 'Jul. 2022 - Sep. 2022',
     },
     {
       role: 'Teaching Assistant of Operating system class',
       companylogo: require('../assets/img/nthu.jpeg'),
-      date: 'Sept. 2021 – Present',
+      date: 'Sept. 2021 – Jan. 2024',
+    },
+    {
+      role: 'Exchange Student in Seoul Naional University',// Here Add Company Name
+      companylogo: require('../assets/img/snu.jpeg'),
+      date: 'Mar. 2024 - Jun. 2024',
     },
   ]
 }
